@@ -2969,7 +2969,7 @@ client.on("guildMemberAdd", member => {
 
 
 client.on('ready', function(){
-    var ms = 100000 ;
+    var ms = 1000 ;
     var setGame = [' Server 1 ','By|Vairos ' ];
     var i = -1;
     var j = 0;
